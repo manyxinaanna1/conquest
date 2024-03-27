@@ -1,0 +1,560 @@
+body {
+  margin: 0;
+    min-width: 1200px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #444240;
+  
+}
+.container {
+width: 1170px;
+margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+.main-header-nav {
+display: flex;
+margin-top: 35px;
+margin-bottom: 26px;
+}
+
+.main-header-logo {
+margin-left: 97px;
+margin-right: 266px;
+}
+
+.site-navigation {
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+color: #555248;
+padding: 0;
+margin: 0;
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+}
+
+.site-navigation-item {
+margin-right: 65px;
+}
+.link-item {
+text-decoration: none;
+}
+
+.user-navigation {
+padding: 0;
+margin: 0;
+list-style-type: none;
+margin-left: auto;
+margin-right: 77px;
+display: flex;
+
+}
+
+.user-navigation-item {
+margin-right: 23px;
+}
+
+.promo {
+display: flex;
+margin-bottom: 79px;
+}
+.promo-column {
+margin-left: 185px;
+width: 343px;
+}
+.promo-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 30px;
+    padding-top: 236px;
+    color: #1b1a17;
+display: flex;
+flex-direction: column;
+margin-top: 0;
+margin-bottom: 39px;
+}
+
+.promo-title span {
+font-size: 45px;
+}
+
+.promo-text {
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 14px;
+color: #1B1A17;
+width: 258px;
+}
+
+.button {
+display: inline-block;
+}
+
+.dark-button {
+color: #FFFFFF;
+background-color: #444240;
+padding: 26px 38px;
+font-family: 'Roboto', sans-serif;
+font-weight: 12px;
+text-transform: uppercase;
+margin-top: 64px;
+}
+
+.promo-image {
+width: 700px;
+margin-left: 55px;
+display: flex;
+}
+
+.promo-price {
+    align-self: flex-start;
+    font-family: "Prata", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1b1a17;
+}
+
+.promo-description {
+    align-self: flex-end;
+}
+
+
+.popular-models {
+margin-left: 98px;
+margin-bottom: 126px;
+}
+.popular-models-header {
+display: flex;
+justify-content: center;
+}
+.popular-models-title {
+margin: 0 auto;
+font-family: 'Playfair Display', serif;
+font-size: 32px;
+}
+
+.show-more {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+.catalog-item-title {
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+font-size: 14px;
+}
+
+.catalog-items-price {
+font-family: "Prata", "Arial", sans-serif;
+font-size: 12px;
+}
+.catalog-list {
+display: flex;
+flex-wrap: wrap;
+padding: 0;
+margin: 0;
+list-style-type: none;
+margin-right: -65px;
+}
+.catalog-item {
+width: 313px;
+margin-top: 52px;
+margin-right: 65px;
+}
+
+.link-details {
+text-decoration: none;
+font-family: 'Playfair Display', serif;
+font-size: 16px;
+}
+
+.quality {
+margin-left: 177px;
+display: flex;
+margin-bottom: 134px;
+}
+.quality-image {
+padding-top: 52px;
+width: 521px;
+margin-right: 70px;
+}
+
+.quality-text {
+width: 376px;
+}
+.quality-text-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 30px;
+    padding-top: 140px;
+    color: #1b1a17;
+margin-top: 0;
+margin-bottom: 38px;
+}
+
+.quality-text-description {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #444240;
+
+}
+
+.button-brown {
+color: #FFFFFF;
+background: #D4B098;
+padding: 26px 38px;
+margin-top: 45px;
+}
+
+
+.news {
+margin-left: 97px;
+display: flex;
+}
+
+.news-text {
+width: 471px; 
+
+margin-right: 71px;
+}
+.news-title {
+font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 32px;
+    padding-top: 140px;
+    color: #1b1a17;
+margin-top: 0;
+margin-bottom: 40px;
+}
+
+.news-decription {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: #444240;
+width: 376px;
+margin-bottom: 118px;
+}
+
+.news-decription a {
+text-decoration: none;
+font-weight: bold;
+}
+
+.social-list {
+display: flex;
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
+list-style-type: none;
+margin-right: -18px;
+}
+
+.social-item {
+margin-right: 18px;
+}
+
+.news-image {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin-right: -10px;
+height: 560px;
+}
+
+.news-image-item {
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+
+.main-footer {
+background-color: #444240;
+color: #FFFFFF;
+padding-top: 65px;
+padding-bottom: 65px;
+display: flex;
+margin-top: 80px;
+}
+
+.footer-container {
+display: flex;
+width: 1000px;
+margin: 0 auto;
+}
+
+.main-footer-column {
+width: 130px;
+margin-right: 151px;
+}
+.footer-link {
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+text-decoration: none;
+}
+.footer-navigation-topics {
+display: flex;
+width: 719px;
+
+}
+.footer-navigation-topic {
+margin-right: 118px;
+}
+.footer-navigation-topic:last-child {
+margin-right: 0;
+}
+
+.footer-navigation-topics, .footer-navigation {
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+.footer-navigation-title {
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.footer-navigation-link {
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+text-decoration: none;
+}
+
+
+
+.breadcrumbs {
+margin: 0;
+padding: 0;
+list-style-type: none;
+margin-right: -14px;
+display: flex;
+}
+
+.breadcrumbs-item {
+margin-right: 14px;
+}
+
+.breadcrumbs-link {
+text-decoration: none;
+color: #B3B3B3;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+}
+
+.breadcrumbs-link-current {
+color: #555248;
+}
+
+.catalog-header-wrapper {
+  display: flex;
+justify-content: space-between;
+}
+
+
+.main-title {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1b1a17;
+}
+
+
+.catalog-content-wrapper {
+display: flex;
+}
+
+.filter-column {
+width: 230px;
+margin-right: 93px;
+}
+.catalog-list-compact {
+  margin-right: -295px;
+}
+.filters-column {
+  width: 240px;
+  margin-right: 90px;
+}
+.filter {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.filter-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.catalog-column {
+  width: 840px;
+}
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.filter-button {
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid #e7e0cf;
+}
+
+.catalog-item-link {
+  text-decoration: none;
+}
+.pagination {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-left: 700px;
+}
+
+.pagination-item {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.accessories-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.accessories-title {
+  margin: 0;
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1b1a17;
+}
+.show-more {
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444240;
+}
+.catalog-item-link {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(27, 26, 23, 0.82);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+
+.card-wrapper {
+  display: flex;
+}
+
+.card-image-column {
+  width: 560px;
+  margin-right: 40px;
+}
+
+.card-photo-preview {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-left: -18px;
+}
+.card-photo-preview-item {
+  width: 127px;
+  margin-left: 18px;
+}
+
+
+.card-decription-column {
+  width: 560px;
+}
+.card-description-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-decription-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card-decription-price {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+.bookmark {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-right: -40px;
+}
+
+.bookmark-item {
+  margin-right: 40px;
+}
+.bookmark-item-link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444240;
+  text-decoration: none;
+}
+.card-description-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  width: 442px;
+  margin-bottom: 25px;
+}
+
+.dark-button {
+  color: #FFFFFF;
+  background-color: #31302C;
+  padding: 24px 56px;
+  margin-top: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+.watched-title {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1b1a17;
+}
